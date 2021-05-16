@@ -1,0 +1,219 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Cursive',serif;
+}
+/* .mainHeader{
+	background-image: linear-gradient(315deg, #f5f5f5 0%, #117a8b 74%);
+} */
+
+.cl{
+	background-color: gainsboro;
+}
+.hd{
+	background-color:antiquewhite;
+}
+body{
+	background-color:#c7c7c0;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	/* background-image: url("background3.PNG"); */
+	/* background-repeat: no-repeat; */
+	background-size: 100% 100%;
+	/* background-color: #dbb8cc; */
+	/* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); */
+	/*background-image: linear-gradient(315deg, #f5f5f5 0%, #117a8b 74%);*/
+	}
+	.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+.mainHeader .active{
+box-sizing: border;
+border: 4px solid rgba(0, 0, 0, 0.295);
+padding: 15px;
+color: rgb(116, 7, 7);
+padding: 10px 45px;
+text-align: center;
+font-size: 14px;
+color: #fff;
+border: none;
+background-color: #bbf0f3;
+	
+
+background-image: linear-gradient(to right,rgba(255,0,0,1);
+border-radius: 10px;}
+.mainHeader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right,yellow,pink);
+}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right,red,yellow);
+    border-radius: 15px;
+}
+
+</style>
+<body>
+	
+<div class="header">
+	<div class="mainHeader">
+  		<nav class="">
+		
+  			<a href="index.html">Home</a>
+			<a href="bank1.html" class="active">Customers Details</a>
+			<a href="moneytranc.html">Transaction Details</a>
+			
+		</nav>
+		<div class="menubtn">
+		
+			<button>Help?</button>
+			
+		</div>
+	</div>
+
+	<div class="container">
+  <h2 class="py-3">Customers List</h2>
+  <table class="table table-hover">
+    <thead>
+      <tr class="hd">
+        <th>Acc.Number</th>
+		<th>Name</th>
+		<th>Email.Id</th>
+		<th>Balance</th>
+      </tr>
+    </thead>
+    <tbody>
+	<tr class="cl">
+	<td>1001</td>
+		<td>VISHAL</td>
+		<td>vishal@gmail.com</td>
+        <td>186050</td>
+      </tr>
+	  <tr class="cl">
+        <td>1002</td>
+		<td>ABHILESH</td>
+		<td>abhilesh@gmail.com</td>
+        <td>180000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1003</td>
+		<td>MALINI</td>
+		<td>malini@gmail.com</td>
+        <td>135000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1004</td>
+		<td>RINKU</td>
+		<td>rinku@gmail.com</td>
+        <td>350000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1005</td>
+		<td>SIMRAN</td>
+		<td>simran@gmail.com</td>
+        <td>602000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1006</td>
+		<td>RISHA</td>
+		<td>risha@gmail.com</td>
+        <td>450900</td>
+      </tr>
+	  <tr class="cl">
+        <td>1007</td>
+		<td>SUSHILA</td>
+		<td>sushila@gmail.com</td>
+        <td>990000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1008</td>
+		<td>AMRITA</td>
+		<td>amrita@gmail.com</td>
+        <td>110735</td>
+      </tr>
+	  <tr class="cl">
+        <td>1009</td>
+		<td>SWATI</td>
+		<td>swati@gmail.com</td>
+        <td>400000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1010</td>
+		<td>PRIYANSHU</td>
+		<td>priyanshu@gmail.com</td>
+        <td>200000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1011</td>
+		<td>LILY</td>
+		<td>lily@gmail.com</td>
+        <td>300000</td>
+	  </tr>
+	  <tr class="cl">
+			<td>1012</td>
+		<td>Siraj</td>
+		<td>siraj@gmail.com</td>
+        <td>500000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1013</td>
+		<td>SHIKHA</td>
+		<td>shikha@gmail.com</td>
+        <td>980000</td>
+      </tr>
+	  <tr class="cl">
+        <td>1014</td>
+		<td>ANSHU</td>
+		<td>anshu@gmail.com</td>
+        <td>301000</td>
+
+      </tr>
+	  <tr class="cl">
+        <td>1015</td>
+		<td>RUBI</td>
+		<td>rubi@gmail.com</td>
+        <td>985000</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</body>
+</html>
